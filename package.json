@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^6.4.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "craco start",
+    "build": "craco build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -31,7 +32,10 @@
     ]
   },
   "devDependencies": {
+    "autoprefixer": "^9.8.8",
     "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.4.1"
+    "postcss": "^7.0.39",
+    "prettier": "^2.4.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   }
 }
