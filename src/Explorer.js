@@ -1,4 +1,5 @@
 import ExplorerContent from './ExplorerContent';
+import ExplorerFooter from './ExplorerFooter';
 import ExplorerHeader from './ExplorerHeader';
 import ExplorerNavigation from './ExplorerNavigation';
 
@@ -10,6 +11,7 @@ const Explorer = () => {
         <ExplorerNavigation />
         <ExplorerContent />
       </div>
+      <ExplorerFooter />
     </div>
   );
 };
