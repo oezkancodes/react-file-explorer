@@ -1,5 +1,5 @@
 import TabItem from './TabItem';
-import ExplorerNavigationButton from './ExplorerNavigationButton';
+import ExplorerHeaderButton from './ExplorerHeaderButton';
 import { PlusIcon, CollectionIcon } from '@heroicons/react/solid';
 import {
   XIcon,
@@ -21,12 +21,12 @@ const ExplorerHeader = () => {
           <TabItem>Downloads</TabItem>
 
           {/* Tab Management */}
-          <ExplorerNavigationButton>
+          <ExplorerHeaderButton>
             <PlusIcon className="w-5 h-5" />
-          </ExplorerNavigationButton>
-          <ExplorerNavigationButton>
+          </ExplorerHeaderButton>
+          <ExplorerHeaderButton>
             <CollectionIcon className="w-5 h-5" />
-          </ExplorerNavigationButton>
+          </ExplorerHeaderButton>
         </div>
 
         {/* OS Actions */}
@@ -43,18 +43,18 @@ const ExplorerHeader = () => {
       {/* Secondary Row */}
       <div className="flex items-center space-x-2">
         {/* Actions */}
-        <ExplorerNavigationButton>
+        <ExplorerHeaderButton>
           <ArrowLeftIcon className="w-5 h-5" />
-        </ExplorerNavigationButton>
-        <ExplorerNavigationButton>
+        </ExplorerHeaderButton>
+        <ExplorerHeaderButton>
           <ArrowRightIcon className="w-5 h-5" />
-        </ExplorerNavigationButton>
-        <ExplorerNavigationButton>
+        </ExplorerHeaderButton>
+        <ExplorerHeaderButton>
           <ArrowUpIcon className="w-5 h-5" />
-        </ExplorerNavigationButton>
-        <ExplorerNavigationButton>
+        </ExplorerHeaderButton>
+        <ExplorerHeaderButton>
           <RefreshIcon className="w-5 h-5" />
-        </ExplorerNavigationButton>
+        </ExplorerHeaderButton>
       </div>
     </header>
   );

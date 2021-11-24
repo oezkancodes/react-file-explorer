@@ -1,4 +1,4 @@
-const ExplorerNavigationButton = (props) => {
+const ExplorerHeaderButton = (props) => {
   return (
     <button className="p-2.5 hover:bg-gray-700 rounded-md transition duration-100">
       {props.children}
@@ -6,4 +6,4 @@ const ExplorerNavigationButton = (props) => {
   );
 };
 
-export default ExplorerNavigationButton;
+export default ExplorerHeaderButton;
