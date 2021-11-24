@@ -17,7 +17,8 @@ const ExplorerHeader = () => {
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-1">
           {/* Tabs */}
-          <TabItem />
+          <TabItem active>Desktop</TabItem>
+          <TabItem>Downloads</TabItem>
 
           {/* Tab Management */}
           <ExplorerNavigationButton>
