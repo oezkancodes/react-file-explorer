@@ -5,7 +5,7 @@ const TabItem = ({ active, children }) => {
   return (
     <div
       className={
-        'px-3 py-2 w-48 hover:bg-gray-700 hover:bg-opacity-50 rounded-md flex items-center justify-between group cursor-pointer transition duration-100 select-none ' +
+        'px-3 py-2 w-48 hover:bg-gray-700 hover:bg-opacity-50 rounded-md flex items-center justify-between group cursor-pointer transition duration-100 ' +
         (active ? 'bg-gray-700' : '')
       }
     >
