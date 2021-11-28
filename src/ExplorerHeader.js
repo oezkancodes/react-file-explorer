@@ -30,18 +30,18 @@ const ExplorerHeader = () => {
         </div>
 
         {/* OS Actions */}
-        <div className="flex items-center">
-          <button className="px-4 py-2.5 hover:bg-gray-700 rounded-md transition duration-100 cursor-pointer">
+        <div className="flex items-center space-x-1">
+          <button className="px-3.5 py-2.5 hover:bg-gray-700 rounded-md transition duration-100 cursor-pointer">
             <MinusIcon className="w-5 h-5" />
           </button>
-          <button className="px-4 py-2.5 hover:bg-red-500 rounded-md transition duration-100 cursor-pointer">
+          <button className="px-3.5 py-2.5 hover:bg-red-500 rounded-md transition duration-100 cursor-pointer">
             <XIcon className="w-5 h-5" />
           </button>
         </div>
       </div>
 
       {/* Secondary Row */}
-      <div className="flex items-center space-x-2">
+      <div className="flex items-center space-x-1">
         {/* Actions */}
         <ExplorerHeaderButton>
           <ArrowLeftIcon className="w-5 h-5" />
