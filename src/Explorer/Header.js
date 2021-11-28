@@ -20,20 +20,30 @@ const Header = () => {
   const tabs = [
     {
       icon: <HomeIcon className="w-5 h-5 text-yellow-300" />,
+      iconSm: <HomeIcon className="w-4 h-4 text-yellow-300" />,
       label: 'Desktop',
     },
     {
       icon: <DownloadIcon className="w-5 h-5 text-blue-500" />,
+      iconSm: <DownloadIcon className="w-4 h-4 text-blue-500" />,
       label: 'Download',
     },
   ];
   const activeTab = 0;
 
   const actions = [
-    { icon: <ArrowLeftIcon className="w-5 h-5" /> },
-    { icon: <ArrowRightIcon className="w-5 h-5" /> },
-    { icon: <ArrowUpIcon className="w-5 h-5" /> },
-    { icon: <RefreshIcon className="w-5 h-5" /> },
+    {
+      icon: <ArrowLeftIcon className="w-5 h-5" />,
+    },
+    {
+      icon: <ArrowRightIcon className="w-5 h-5" />,
+    },
+    {
+      icon: <ArrowUpIcon className="w-5 h-5" />,
+    },
+    {
+      icon: <RefreshIcon className="w-5 h-5" />,
+    },
   ];
 
   return (

@@ -1,4 +1,3 @@
-import { FolderIcon } from '@heroicons/react/solid';
 import { useState } from 'react';
 import DropdownListItem from './DropdownListItem';
 
@@ -18,12 +17,8 @@ const Dropdown = ({ button, list }) => {
             : 'invisible opacity-0 -translate-y-4')
         }
       >
-        {list.map(({ label }) => (
-          <DropdownListItem
-            icon={<FolderIcon className="w-4 h-4" />}
-            label={label}
-            key={label}
-          />
+        {list.map(({ iconSm, label }) => (
+          <DropdownListItem icon={iconSm} label={label} key={label} />
         ))}
       </div>
     </div>

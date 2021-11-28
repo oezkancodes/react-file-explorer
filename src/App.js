@@ -1,4 +1,4 @@
-import Explorer from './Explorer';
+import Explorer from './Explorer/Explorer';
 
 const App = () => {
   const style = {
