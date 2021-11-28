@@ -1,19 +1,19 @@
-import ExplorerFooterButton from './ExplorerFooterButton';
+import FooterButton from './FooterButton';
 
-const ExplorerFooter = () => {
+const Footer = () => {
   return (
     <footer className="bg-gray-800 p-2 border-t border-gray-700 flex justify-between">
       <section></section>
       <section className="flex space-x-1">
-        <ExplorerFooterButton>
+        <FooterButton>
           <img className="h-4 w-4" src="/git.svg" alt="Git" />
-        </ExplorerFooterButton>
-        <ExplorerFooterButton>
+        </FooterButton>
+        <FooterButton>
           <img className="h-4 w-4" src="/onedrive.svg" alt="OneDrive" />
-        </ExplorerFooterButton>
+        </FooterButton>
       </section>
     </footer>
   );
 };
 
-export default ExplorerFooter;
+export default Footer;

@@ -1,7 +1,6 @@
-import { FolderIcon } from '@heroicons/react/solid';
 import { XIcon } from '@heroicons/react/outline';
 
-const TabItem = ({ active, children }) => {
+const TabItem = ({ active, icon, label }) => {
   return (
     <div
       className={
@@ -12,9 +11,9 @@ const TabItem = ({ active, children }) => {
       {/* Details */}
       <div className="flex items-center space-x-2">
         {/* Type */}
-        <FolderIcon className="h-5 w-5" />
+        {icon}
         {/* Title */}
-        <span className="text-xs">{children}</span>
+        <span className="text-xs">{label}</span>
       </div>
 
       {/* Close */}

@@ -1,4 +1,4 @@
-const ExplorerNavigationButton = ({ active, children }) => {
+const NavigationButton = ({ active, icon, label }) => {
   return (
     <button
       className={
@@ -6,9 +6,10 @@ const ExplorerNavigationButton = ({ active, children }) => {
         (active ? 'bg-gray-500 bg-opacity-25 font-medium' : '')
       }
     >
-      {children}
+      {icon}
+      <span>{label}</span>
     </button>
   );
 };
 
-export default ExplorerNavigationButton;
+export default NavigationButton;

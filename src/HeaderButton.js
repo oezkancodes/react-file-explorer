@@ -1,9 +1,9 @@
-const ExplorerHeaderButton = (props) => {
+const HeaderButton = ({ icon }) => {
   return (
     <button className="p-2.5 hover:bg-gray-700 rounded-md transition duration-100">
-      {props.children}
+      {icon}
     </button>
   );
 };
 
-export default ExplorerHeaderButton;
+export default HeaderButton;
