@@ -6,9 +6,6 @@ Für das Modul Interface Design aus dem 5. Semester OMB an der Hochschule Furtwa
 
 > ⚠️ Siehe [Vue basierter File-Explorer](https://github.com/oezkancodes/vue-file-explorer).
 
-[Veraltetete React Live Demo](https://vue-file-explorer-ifd.netlify.app)
-[Neue Vue Live Demo](https://vue-file-explorer-ifd.netlify.app/)
-
 Basiert auf:
 
 - [01.1 Themenvorschlag Interaktive Datenvisualisierung](https://github.com/oezkancodes/IFD/blob/main/Aufgaben/01-User_Experience_Design/Themenvorschlag.pdf)
