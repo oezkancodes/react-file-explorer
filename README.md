@@ -2,9 +2,9 @@
 
 Für das Modul Interface Design aus dem 5. Semester OMB an der Hochschule Furtwangen.
 
-> ⚠️ Das ist eine unvollständige veraletet Version. Siehe Vue basierte Demo unten.
+> ⚠️ Das hier ist eine unvollständige veraletet Version. Siehe neue Vue basiertes Projekt unten.
 
-> ⚠️ Siehe [Vue basierter File-Explorer](https://github.com/oezkancodes/vue-file-explorer).
+> ⚠️ [Repository Vue basierter File-Explorer](https://github.com/oezkancodes/vue-file-explorer).
 
 Basiert auf:
 
